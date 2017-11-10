@@ -1,3 +1,7 @@
+# adjust permissions to xserver
+# http://wiki.ros.org/docker/Tutorials/GUI
+xhost +local:root >> /dev/null
+
 # this rqt plugins are not working in 16.04 using x2go
 alias rqt_tf_tree="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_tf_tree rqt_tf_tree\" >> /dev/null"
 alias rqt_bag="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_bag rqt_bag\" >> /dev/null"
