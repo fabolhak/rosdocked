@@ -1,0 +1,19 @@
+# this rqt plugins are not working in 16.04 using x2go
+alias rqt_tf_tree="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_tf_tree rqt_tf_tree\" >> /dev/null"
+alias rqt_bag="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_bag rqt_bag\" >> /dev/null"
+alias rqt_action="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_action rqt_action\" >> /dev/null"
+alias rqt_launch="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_launch rqt_launch\" >> /dev/null"
+alias rqt_publisher="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_publisher rqt_publisher\" >> /dev/null"
+alias rqt_reconfigure="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_reconfigure rqt_reconfigure\" >> /dev/null"
+alias rqt_runtime_monitor="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_runtime_monitor rqt_runtime_monitor\" >> /dev/null"
+alias rqt_srv="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_srv rqt_srv\" >> /dev/null"
+alias rqt_tf_tree="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_tf_tree rqt_tf_tree\" >> /dev/null"
+alias rqt_top="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_top rqt_top\" >> /dev/null"
+alias rqt_topic="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_topic rqt_topic\" >> /dev/null"
+
+# some rqt plugins are still working
+#alias rqt_image_view="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_image_view rqt_image_view\" >> /dev/null"
+
+
+# display rqt warning
+alias rqt="echo \"rqt gui doesn't work using x2go. Use rqt_<plugin> instead (you can use TAB-key to explore all available plugins). Some plugins need root access (they are executed in a Docker container).\""
