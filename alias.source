@@ -8,7 +8,7 @@ alias rqt_reconfigure="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosru
 alias rqt_runtime_monitor="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_runtime_monitor rqt_runtime_monitor\" >> /dev/null"
 alias rqt_srv="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_srv rqt_srv\" >> /dev/null"
 alias rqt_tf_tree="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_tf_tree rqt_tf_tree\" >> /dev/null"
-alias rqt_top="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_top rqt_top\" >> /dev/null"
+#alias rqt_top="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_top rqt_top\" >> /dev/null"
 alias rqt_topic="sudo /opt/rosdocked/run.sh indigo $ROS_MASTER_URI \"rosrun rqt_topic rqt_topic\" >> /dev/null"
 
 # some rqt plugins are still working
